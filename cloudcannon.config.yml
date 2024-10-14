@@ -1,0 +1,42 @@
+collections_config:
+  2022_07_08_first_post:
+    path: src/content/blog/2022-07-08-first-post
+    name: 2022 07 08 First Post
+    icon: first_page
+  2022_07_15_second_post:
+    path: src/content/blog/2022-07-15-second-post
+    name: 2022 07 15 Second Post
+    icon: compost
+  2022_07_2_third_post:
+    path: src/content/blog/2022-07-2-third-post
+    name: 2022 07 2 Third Post
+    icon: local_airport
+  2023_08_16_sagittis_purus:
+    path: src/content/blog/2023-08-16-sagittis-purus
+    name: 2023 08 16 Sagittis Purus
+    icon: sanitizer
+  2023_08_17_lorem_ipsum:
+    path: src/content/blog/2023-08-17-lorem-ipsum
+    name: 2023 08 17 Lorem Ipsum
+    icon: workspace_premium
+  2024_08_17_using_mdx:
+    path: src/content/blog/2024-08-17-using-mdx
+    name: 2024 08 17 Using Mdx
+    icon: add_business
+  2024_08_18_markdown_style_guide:
+    path: src/content/blog/2024-08-18-markdown-style-guide
+    name: 2024 08 18 Markdown Style Guide
+    icon: arrow_circle_up
+  pages:
+    path: ''
+    name: Pages
+    icon: wysiwyg
+    disable_url: true
+paths:
+  static: public
+  uploads: public/uploads
+timezone: Europe/Podgorica
+markdown:
+  engine: commonmark
+  options:
+    gfm: true
